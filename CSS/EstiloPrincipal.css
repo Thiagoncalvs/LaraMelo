@@ -7,7 +7,7 @@
 }
 .EstruturaGeral{
     width: 100vw;
-    height: 210vh;
+    height: 200vh;
     background: linear-gradient(180deg, #000, #1f011f, #800080, #701686);
 }
 
@@ -57,7 +57,7 @@
     .EstruturaGeral .cabecalho{
         background: rgba(173, 216, 230, 0.233);
         width: 100vw;
-        height: 80vh;
+        height: 85vh;
     }
 
 
@@ -65,19 +65,25 @@
     .EstruturaGeral .sectionMain{
         /* background: rgba(255, 160, 122, 0.205); */
         width: 100vw;
-        height: 120vh;
+        height: 110vh;
         display: grid;
         grid-template-rows: 20vh, 100vh;
     }
         .EstruturaGeral .sectionMain .RowPrincipal{
             /* background: rgba(255, 255, 0, 0.315); */
             width: 100vw;
-            height: 30vh;
+            height: 25vh;
         }
             .EstruturaGeral .sectionMain .RowPrincipal .produtoMain{
-                background: rgba(255, 0, 0, 0.308);
+                background-image: url(../IMG/modelo-de-curriculo.jpg);
+                background-size: cover;
+
+                -webkit-filter: grayscale(100%);
+                filter: grayscale(100%);
+                filter: gray;
+
                 width: 90vw;
-                height: 28vh;
+                height: 170px;
                 margin-left: auto;
                 margin-right: auto;
                 border-radius: 25px;
@@ -92,8 +98,16 @@
         }
             .EstruturaGeral .sectionMain .RowOrdinaria .produto01{
                 width: 45vw;
-                height: 230px;
-                background: rgba(255, 0, 0, 0.308);
+                min-height: 200px;
+                max-height: 230px;
+                background-image: url(../IMG/como-criar-produtos-digitais-produto-digital-de-informação-para-vender-online.5.jpg);
+                background-position: center;
+                background-size: cover;
+
+                -webkit-filter: grayscale(100%);
+                filter: grayscale(100%);
+                filter: gray;
+
                 margin-bottom: 15px;
                 margin-left: auto;
                 margin-right: auto;
@@ -103,8 +117,16 @@
             }
             .EstruturaGeral .sectionMain .RowOrdinaria .produto02{
                 width: 45vw;
-                height: 380px;
-                background: rgba(255, 0, 0, 0.308);
+                min-height: 280px;
+                max-height: 380px;
+                background-image: url(../IMG/Como-Organizar-a-Producao-de-Conteudo-na-sua-Empresa-Featured.png);
+                background-size: cover;
+                background-position: 20% 50%;
+
+                -webkit-filter: grayscale(100%);
+                filter: grayscale(100%);
+                filter: gray;
+
                 margin-bottom: 15px;
                 margin-left: auto;
                 margin-right: auto;
@@ -114,8 +136,16 @@
             }
             .EstruturaGeral .sectionMain .RowOrdinaria .produto03{
                 width: 45vw;
-                height: 380px;
-                background: rgba(255, 0, 0, 0.308);
+                min-height: 280px;
+                max-height: 380px;
+                background-image: url(../IMG/x3-Imagem-Interna.png.pagespeed.ic.iNEbgm71GB.png);
+                background-size: cover;
+                background-position: 35% 50%;
+
+                -webkit-filter: grayscale(100%);
+                filter: grayscale(100%);
+                filter: gray;
+
                 margin-bottom: 15px;
                 margin-left: auto;
                 margin-right: auto;
@@ -125,8 +155,16 @@
             }
             .EstruturaGeral .sectionMain .RowOrdinaria .produto04{
                 width: 45vw;
-                height: 230px;
-                background: rgba(255, 0, 0, 0.308);
+                min-height: 200px;
+                max-height: 230px;
+                background-image: url(../IMG/As-marcas-mais-valiosas-do-Brasil.jpg);
+                background-size: cover;
+                background-position: center;
+                
+                -webkit-filter: grayscale(100%);/*Deixa a imagem preto e branco*/
+	            filter: grayscale(100%);
+	            filter: gray;
+                
                 margin-bottom: 15px;
                 margin-left: auto;
                 margin-right: auto;
