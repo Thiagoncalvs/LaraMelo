@@ -75,13 +75,7 @@
             height: 25vh;
         }
             .EstruturaGeral .sectionMain .RowPrincipal .produtoMain{
-                background-image: url(../IMG/modelo-de-curriculo.jpg);
-                background-size: cover;
-
-                -webkit-filter: grayscale(100%);
-                filter: grayscale(100%);
-                filter: gray;
-
+                background: linear-gradient(60deg, rgba(234, 0, 148, 0.582), #fe3075d3, rgba(252, 120, 113, 0.89));
                 width: 90vw;
                 height: 170px;
                 margin-left: auto;
@@ -97,17 +91,10 @@
             column-gap: 0;
         }
             .EstruturaGeral .sectionMain .RowOrdinaria .produto01{
+                background: linear-gradient(60deg, rgba(234, 0, 148, 0.582), #fe3075a9, rgba(252, 120, 113, 0.555));
                 width: 45vw;
                 min-height: 200px;
                 max-height: 230px;
-                background-image: url(../IMG/como-criar-produtos-digitais-produto-digital-de-informação-para-vender-online.5.jpg);
-                background-position: center;
-                background-size: cover;
-
-                -webkit-filter: grayscale(100%);
-                filter: grayscale(100%);
-                filter: gray;
-
                 margin-bottom: 15px;
                 margin-left: auto;
                 margin-right: auto;
@@ -116,17 +103,10 @@
                 border-radius: 25px;
             }
             .EstruturaGeral .sectionMain .RowOrdinaria .produto02{
+                background: linear-gradient(200deg, rgba(234, 0, 148, 0.781), #5c00a377, #5c00a391);
                 width: 45vw;
                 min-height: 280px;
                 max-height: 380px;
-                background-image: url(../IMG/Como-Organizar-a-Producao-de-Conteudo-na-sua-Empresa-Featured.png);
-                background-size: cover;
-                background-position: 20% 50%;
-
-                -webkit-filter: grayscale(100%);
-                filter: grayscale(100%);
-                filter: gray;
-
                 margin-bottom: 15px;
                 margin-left: auto;
                 margin-right: auto;
@@ -135,17 +115,10 @@
                 border-radius: 25px;
             }
             .EstruturaGeral .sectionMain .RowOrdinaria .produto03{
+                background: linear-gradient(30deg, #6f1686c0, #fe30758f, #fe3075b7);
                 width: 45vw;
                 min-height: 280px;
                 max-height: 380px;
-                background-image: url(../IMG/x3-Imagem-Interna.png.pagespeed.ic.iNEbgm71GB.png);
-                background-size: cover;
-                background-position: 35% 50%;
-
-                -webkit-filter: grayscale(100%);
-                filter: grayscale(100%);
-                filter: gray;
-
                 margin-bottom: 15px;
                 margin-left: auto;
                 margin-right: auto;
@@ -154,17 +127,10 @@
                 border-radius: 25px;
             }
             .EstruturaGeral .sectionMain .RowOrdinaria .produto04{
+                background: linear-gradient(200deg, rgba(234, 0, 148, 0.527), #5c00a386, #5c00a391);
                 width: 45vw;
                 min-height: 200px;
                 max-height: 230px;
-                background-image: url(../IMG/As-marcas-mais-valiosas-do-Brasil.jpg);
-                background-size: cover;
-                background-position: center;
-                
-                -webkit-filter: grayscale(100%);/*Deixa a imagem preto e branco*/
-	            filter: grayscale(100%);
-	            filter: gray;
-                
                 margin-bottom: 15px;
                 margin-left: auto;
                 margin-right: auto;
