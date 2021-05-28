@@ -27,6 +27,7 @@ body{
     width: 100vw;
     height: 200vh;
     background: linear-gradient(180deg, #000, #1f011f, #800080, #701686);
+    overflow: hidden;
 }
 
 
@@ -78,15 +79,68 @@ body{
         height: 85vh;
         position: relative;
     }
-    .EstruturaGeral .cabecalho .QuadroFoto{
-            width: 300px;
-            height:300px;
+    .EstruturaGeral .cabecalho .QuadroFoto1{
+            width: 200px;
+            height:200px;
             position: absolute;
-            border: #fe3076 15px solid;
+            border: #ac01f0 15px solid;
+            box-sizing: border-box;
+            transform: rotate(45deg);
+            bottom: 350px;
+            right: 200px;
+            z-index: 0;
+        }
+        .EstruturaGeral .cabecalho .QuadroFoto2{
+            width: 280px;
+            height:280px;
+            position: absolute;
+            border: #32a51b00 15px solid;
             box-sizing: border-box;
             transform: rotate(45deg);
             bottom: 250px;
             right: 0;
+            overflow: hidden;
+        }
+        .EstruturaGeral .cabecalho .QuadroFoto3{
+            width: 80px;
+            height:80px;
+            position: absolute;
+            border: #fe3076 10px solid;
+            box-sizing: border-box;
+            transform: rotate(45deg);
+            bottom: 300px;
+            right: 260px;
+            z-index: 5;
+        }
+        .EstruturaGeral .cabecalho .FotoPerfil{
+            width: 391px;
+            height: 432px;
+            background-image: url(../IMG/LaraMelo9.png);
+            background-size: cover;
+            position: absolute;
+            transform: rotate(-45deg);
+            bottom: -115px;
+            right: -80px;
+        }
+        .EstruturaGeral .cabecalho .NomePerfil{
+            position: absolute;
+            background: rgba(255, 255, 255, 0);
+            bottom: 90px;
+            color: #e8e1e9;
+            left: 10px;
+        }
+        .EstruturaGeral .cabecalho .NomePerfil h1{
+            font-family: 'FonteTitulo1', Times, serif;
+            text-transform: uppercase;
+            font-size: 40pt;
+            text-shadow: 5px 5px 5px #21002eab;
+        }
+        .EstruturaGeral .cabecalho .NomePerfil h1 strong{
+            font-size: 72pt;      
+        }
+        .EstruturaGeral .cabecalho .NomePerfil p{
+            font-family: 'FonteSubTitulo', Times, serif;
+            font-size: 16pt;
         }
 
 
