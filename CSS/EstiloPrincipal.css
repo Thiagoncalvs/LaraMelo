@@ -18,6 +18,11 @@
     list-style: none;
     text-decoration: none;
 }
+
+body{
+    background: #000;
+}
+
 .EstruturaGeral{
     width: 100vw;
     height: 200vh;
@@ -71,7 +76,18 @@
         /* background: rgba(173, 216, 230, 0.233); */
         width: 100vw;
         height: 85vh;
+        position: relative;
     }
+    .EstruturaGeral .cabecalho .QuadroFoto{
+            width: 300px;
+            height:300px;
+            position: absolute;
+            border: #fe3076 15px solid;
+            box-sizing: border-box;
+            transform: rotate(45deg);
+            bottom: 250px;
+            right: 0;
+        }
 
 
 
