@@ -485,6 +485,54 @@ body{
             top: 5%;
         }
 }
+
+@media (min-width: 1000px) {
+
+    .EstruturaGeral .NavMain{
+        /* background: rgba(255, 255, 255, 0.342); */
+        height: 40vh;
+        width: 3vw;
+        right: 0;
+    }
+        .EstruturaGeral .NavMain ul{
+            width: 3vw;
+            height: 25vh;
+            border-radius: 0;
+            grid-template-columns: repeat(1, 1fr);
+        }
+            .EstruturaGeral .NavMain ul li{
+                display: block;
+                /* background: rgba(255, 0, 0, 0.226); */
+                width: 3vw;
+                height: 6vh;
+            }
+                .EstruturaGeral .NavMain ul li + li{
+                    border-top: #81778241 1px solid;
+                }
+                .EstruturaGeral .NavMain ul li a{
+                    display: block;
+                    font-size: 1.5em;
+                    /* background: rgba(0, 0, 255, 0.212); */
+                    left: 0;
+                    transform: translateY(-50%);
+                }
+                    .EstruturaGeral .NavMain ul li a .bi{
+                        color: #817782;
+                    }
+
+                    .EstruturaGeral .NavMain ul li:hover a .bi-twitter{
+                        color: rgb(29, 161, 242);
+                    }
+                    .EstruturaGeral .NavMain ul li:hover a .bi-facebook{
+                        color: rgb(18, 125, 240);
+                    }
+                    .EstruturaGeral .NavMain ul li:hover a .bi-instagram{
+                        color: #fe3075d3;
+                    }
+                    .EstruturaGeral .NavMain ul li:hover a .bi-whatsapp{
+                        color: rgb(68, 186, 90);
+                    }
+}
 @media (max-width: 420px) {
     .BackgrondFluido #frase1{
         font-size: calc(12pt /1.3);
