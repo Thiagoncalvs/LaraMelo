@@ -17,6 +17,7 @@
     border: none;
     list-style: none;
     text-decoration: none;
+    /* outline: #2daebf dashed 1px; */
 }
 
 body{
@@ -95,6 +96,13 @@ body{
                 text-transform: uppercase;
                 overflow: hidden;
 
+                outline: #800080cb dashed 1px;
+                padding: 2px;
+            }
+            .BackgrondFluido > *{
+                outline: #800080cb dashed 1px;
+                margin: 2px;
+                word-break: break-word;
             }
             .BackgrondFluido #frase1{
                 color: white;
@@ -285,6 +293,8 @@ body{
                 text-align: center;
                 padding-top: 5px;
                 padding-left: 5px;
+
+                word-break: unset;
             }
             .BackgrondFluido #frase15{
                 /* background: red; */
@@ -344,7 +354,7 @@ body{
                 margin-left: auto;
                 margin-right: auto;
                 border-radius: 25px;
-                color: #e8e1e9;
+                color: #e1e2e9;
 
                 position: relative;
             }
@@ -467,6 +477,234 @@ body{
                     bottom: 30px;
                 }
 
-@media (width) {
+@media (max-height: 699px) {
+    .EstruturaGeral .sectionMain .RowPrincipal .produtoMain{
+        height: 90%;
+    }
+        .EstruturaGeral .sectionMain .RowPrincipal .produtoMain span{
+            top: 5%;
+        }
+}
+@media (max-width: 420px) {
+    .BackgrondFluido #frase1{
+        font-size: calc(12pt /1.3);
+    }
+    .BackgrondFluido #frase2{
+        font-size: calc(8pt / 1.3);
+        letter-spacing: 2px;
+    }
+    .BackgrondFluido #frase3{
+        font-size: calc(12pt / 1.3);
+        padding: 6px;
+        padding-top: 0;
+        letter-spacing: 2.5px;
+    }
+
+    .BackgrondFluido #frase4{
+        font-size: calc(19pt / 1.3);
+    }
+
+    .BackgrondFluido #frase5{
+        font-size: calc(8pt / 1.3);
+        letter-spacing: 1px;
+    }
+
+    .BackgrondFluido #frase6{
+        font-size: calc(12pt / 1.3);
+        letter-spacing: 1px;
+    }
+
+    .BackgrondFluido #frase7{
+        font-size: calc(11pt / 1.3);
+        letter-spacing: 1.8px;
+    }
+
+    .BackgrondFluido #frase8{
+        font-size: calc(45pt / 1.3) ;
+        letter-spacing: 1.2px;
+    }
+
+    .BackgrondFluido #frase9{
+        font-size: calc(8pt / 1.3);
+    }
+
+    .BackgrondFluido #frase10{
+        font-size: calc(12pt / 1.3);
+        letter-spacing: 1.4px;
+    }
+    .BackgrondFluido #frase11{
+        font-size: calc(24pt / 1.3);
+    }
+    .BackgrondFluido #frase12{
+        font-size: calc(9.5pt / 1.3);
+    }
+    .BackgrondFluido #frase13{
+        font-size: calc(12pt / 1.3);
+        letter-spacing: 3%;
+    }
+    .BackgrondFluido #frase14{
+        font-size: calc(22pt / 1.3);
+        letter-spacing: 12pt;
+        text-align: center;
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+    .BackgrondFluido #frase15{
+        font-size: calc(12pt / 1.3);
+    }
+    .BackgrondFluido #frase16{
+        font-size: calc(40pt / 1.3);
+        letter-spacing: 1.5%;
+        text-align: center;
+    }
+}
+@media (max-width: 350px) {
+    .EstruturaGeral .sectionMain p{
+        font-size: 10pt;
+    }
     
+    .BackgrondFluido #frase1{
+        font-size: calc(12pt /1.5);
+    }
+    .BackgrondFluido #frase2{
+        font-size: calc(8pt / 1.5);
+        letter-spacing: 2px;
+    }
+    .BackgrondFluido #frase3{
+        font-size: calc(12pt / 1.5);
+        padding: 6px;
+        padding-top: 0;
+        letter-spacing: 2.5px;
+    }
+
+    .BackgrondFluido #frase4{
+        font-size: calc(19pt / 1.5);
+    }
+
+    .BackgrondFluido #frase5{
+        font-size: calc(8pt / 1.5);
+        letter-spacing: 1px;
+    }
+
+    .BackgrondFluido #frase6{
+        font-size: calc(12pt / 1.5);
+        letter-spacing: 1px;
+    }
+
+    .BackgrondFluido #frase7{
+        font-size: calc(11pt / 1.5);
+        letter-spacing: 1.8px;
+    }
+
+    .BackgrondFluido #frase8{
+        font-size: calc(45pt / 1.5);
+        letter-spacing: 1.2px;
+    }
+
+    .BackgrondFluido #frase9{
+        font-size: calc(8pt / 1.5);
+    }
+
+    .BackgrondFluido #frase10{
+        font-size: calc(12pt / 1.5);
+        letter-spacing: 1.4px;
+    }
+    .BackgrondFluido #frase11{
+        font-size: calc(24pt / 1.5);
+    }
+    .BackgrondFluido #frase12{
+        font-size: calc(9.5pt / 1.5);
+    }
+    .BackgrondFluido #frase13{
+        font-size: calc(12pt / 1.5);
+        letter-spacing: 3%;
+    }
+    .BackgrondFluido #frase14{
+        font-size: calc(22pt / 1.5);
+        letter-spacing: 12pt;
+        text-align: center;
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+    .BackgrondFluido #frase15{
+        font-size: calc(12pt / 1.5);
+    }
+    .BackgrondFluido #frase16{
+        font-size: calc(40pt / 1.5);
+        letter-spacing: 1.5%;
+        text-align: center;
+    }
+}
+@media (max-width: 320px) {
+    .BackgrondFluido #frase1{
+        font-size: calc(12pt /2.5);
+    }
+    .BackgrondFluido #frase2{
+        font-size: calc(8pt / 2.5);
+        letter-spacing: 2px;
+    }
+    .BackgrondFluido #frase3{
+        font-size: calc(12pt / 2.5);
+        padding: 6px;
+        padding-top: 0;
+        letter-spacing: 2.5px;
+    }
+
+    .BackgrondFluido #frase4{
+        font-size: calc(19pt / 2.5);
+    }
+
+    .BackgrondFluido #frase5{
+        font-size: calc(8pt / 2.5);
+        letter-spacing: 1px;
+    }
+
+    .BackgrondFluido #frase6{
+        font-size: calc(12pt / 2.5);
+        letter-spacing: 1px;
+    }
+
+    .BackgrondFluido #frase7{
+        font-size: calc(11pt / 2.5);
+        letter-spacing: 1.8px;
+    }
+
+    .BackgrondFluido #frase8{
+        font-size: calc(45pt / 2.5);
+        letter-spacing: 1.2px;
+    }
+
+    .BackgrondFluido #frase9{
+        font-size: calc(8pt / 2.5);
+    }
+
+    .BackgrondFluido #frase10{
+        font-size: calc(12pt / 2.5);
+        letter-spacing: 1.4px;
+    }
+    .BackgrondFluido #frase11{
+        font-size: calc(24pt / 2.5);
+    }
+    .BackgrondFluido #frase12{
+        font-size: calc(9.5pt / 2.5);
+    }
+    .BackgrondFluido #frase13{
+        font-size: calc(12pt / 2.5);
+        letter-spacing: 3%;
+    }
+    .BackgrondFluido #frase14{
+        font-size: calc(22pt / 2.5);
+        letter-spacing: 12pt;
+        text-align: center;
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+    .BackgrondFluido #frase15{
+        font-size: calc(12pt / 2.5);
+    }
+    .BackgrondFluido #frase16{
+        font-size: calc(40pt / 2.5);
+        letter-spacing: 1.5%;
+        text-align: center;
+    }
 }
