@@ -96,11 +96,14 @@ body{
                 text-transform: uppercase;
                 overflow: hidden;
 
-                outline: #800080cb dashed 1px;
+                outline: #800080 dashed 1px;
                 padding: 2px;
+
+                
+
             }
             .BackgrondFluido > *{
-                outline: #800080cb dashed 1px;
+                outline: #800080 dashed 1px;
                 margin: 2px;
                 word-break: break-word;
             }
@@ -165,9 +168,9 @@ body{
             .BackgrondFluido #frase6{
                 /* background: rgba(173, 216, 230, 0.616); */
 
-                writing-mode: sideways-lr;
-                -webkit-writing-mode: sideways-lr;
-                -ms-writing-mode: sideways-lr;
+                writing-mode: vertical-lr;
+                -webkit-writing-mode: vertical-lr;
+                -ms-writing-mode: vertical-lr;
 
                 color: white;
                 font-family: 'FonteTitulo1', Times, serif;
@@ -186,9 +189,9 @@ body{
                 font-size: 11pt;
                 letter-spacing: 1.8px;
 
-                writing-mode: sideways-lr;
-                -webkit-writing-mode: sideways-lr;
-                -ms-writing-mode: sideways-lr;
+                writing-mode: vertical-lr;
+                -webkit-writing-mode: vertical-lr;
+                -ms-writing-mode: vertical-lr;
                 
                 grid-column: 6;
                 grid-row: 1;
@@ -203,9 +206,9 @@ body{
                 font-size: 45pt;
                 letter-spacing: 1.2px;
 
-                writing-mode: sideways-lr;
-                -webkit-writing-mode: sideways-lr;
-                -ms-writing-mode: sideways-lr;
+                writing-mode: vertical-lr;
+                -webkit-writing-mode: vertical-lr;
+                -ms-writing-mode: vertical-lr;
 
                 grid-column: 1;
                 grid-row: 2 / -1;
@@ -228,9 +231,9 @@ body{
                 grid-column: 5 / 6;
                 grid-row: 1;
 
-                writing-mode: sideways-lr;
-                -webkit-writing-mode: sideways-lr;
-                -ms-writing-mode: sideways-lr;
+                writing-mode: vertical-lr;
+                -webkit-writing-mode: vertical-lr;
+                -ms-writing-mode: vertical-lr;
 
                 color: white;
                 font-family: 'FonteTitulo1', Times, serif;
@@ -243,9 +246,9 @@ body{
                 grid-column: 6;
                 grid-row: 5 / 15;
 
-                writing-mode: sideways-lr;
-                -webkit-writing-mode: sideways-lr;
-                -ms-writing-mode: sideways-lr;
+                writing-mode: vertical-lr;
+                -webkit-writing-mode: vertical-lr;
+                -ms-writing-mode: vertical-lr;
 
                 color: white;
                 font-family: 'FonteTitulo1', Times, serif;
@@ -257,9 +260,9 @@ body{
                 grid-row: 7 / 15;
                 grid-column: 4;
 
-                writing-mode: sideways-lr;
-                -webkit-writing-mode: sideways-lr;
-                -ms-writing-mode: sideways-lr;
+                writing-mode: vertical-lr;
+                -webkit-writing-mode: vertical-lr;
+                -ms-writing-mode: vertical-lr;
 
 
                 color: white;
@@ -272,9 +275,9 @@ body{
                 grid-row: 6 / 15;
                 grid-column: 5;
 
-                writing-mode: sideways-lr;
-                -webkit-writing-mode: sideways-lr;
-                -ms-writing-mode: sideways-lr;
+                writing-mode: vertical-lr;
+                -webkit-writing-mode: vertical-lr;
+                -ms-writing-mode: vertical-lr;
 
                 color: white;
                 font-family: 'FonteTitulo1', Times, serif;
