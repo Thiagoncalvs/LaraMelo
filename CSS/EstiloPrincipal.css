@@ -26,7 +26,7 @@ body{
 .EstruturaGeral{
     width: 100vw;
     height: 200vh;
-    background: linear-gradient(180deg, #000, #1f011f, #800080, #701686);
+    background: linear-gradient(180deg, #000, #000,  #070007, #0e000e, #1f011f, #800080, #701686, #931eb1);
     overflow: hidden;
 }
 
@@ -79,73 +79,221 @@ body{
         height: 85vh;
         position: relative;
     }
-    .EstruturaGeral .cabecalho .QuadroFoto1{
-            width: 200px;
-            height:200px;
-            position: absolute;
-            /* border: #ac01f0 15px solid; */
-            border-style: solid;
-            border-width: 15px;
-            border-image: linear-gradient(180deg, #1f011f, #1f011f, #800080, #701686) 1;
-            box-sizing: border-box;
-            transform: rotate(45deg);
-            bottom: 350px;
-            right: 200px;
-            z-index: 0;
-        }
-        .EstruturaGeral .cabecalho .QuadroFoto2{
-            width: 280px;
-            height:280px;
-            position: absolute;
-            border: #32a51b00 15px solid;
-            box-sizing: border-box;
-            transform: rotate(45deg);
-            bottom: 250px;
-            right: 0;
-            overflow: hidden;
-        }
-        .EstruturaGeral .cabecalho .QuadroFoto3{
-            width: 80px;
-            height:80px;
-            position: absolute;
-            border: #fe3075ef 10px solid;
-            box-sizing: border-box;
-            transform: rotate(45deg);
-            bottom: 300px;
-            right: 260px;
-            z-index: 5;
-        }
-        .EstruturaGeral .cabecalho .FotoPerfil{
-            width: 391px;
-            height: 432px;
-            background-image: url(../IMG/LaraMelo9.png);
-            background-size: cover;
-            position: absolute;
-            transform: rotate(-45deg);
-            bottom: -115px;
-            right: -80px;
-        }
-        .EstruturaGeral .cabecalho .NomePerfil{
-            position: absolute;
-            background: rgba(255, 255, 255, 0);
-            bottom: 90px;
-            color: #e8e1e9;
-            left: 10px;
-        }
-        .EstruturaGeral .cabecalho .NomePerfil h1{
-            font-family: 'FonteTitulo1', Times, serif;
-            text-transform: uppercase;
-            font-size: 40pt;
-            text-shadow: 5px 5px 5px #21002eab;
-        }
-        .EstruturaGeral .cabecalho .NomePerfil h1 strong{
-            font-size: 72pt;      
-        }
-        .EstruturaGeral .cabecalho .NomePerfil p{
-            font-family: 'FonteSubTitulo', Times, serif;
-            font-size: 16pt;
-        }
+            .BackgrondFluido{
+                /* background: rgba(255, 255, 255, 0.486); */
+                width: 90vw;
+                
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
 
+                display: grid;
+                grid-template-columns: repeat(6, auto);
+                grid-template-rows: repeat(15, auto);
+                
+                text-transform: uppercase;
+                overflow: hidden;
+
+            }
+            .BackgrondFluido #frase1{
+                color: white;
+                font-family: 'FonteTitulo1', Times, serif;
+                font-size: 12pt;
+
+                /* background: rgba(255, 255, 0, 0.267); */
+
+                grid-column: 1;
+                grid-row: 1;
+            }
+            .BackgrondFluido #frase2{
+                /* background: rgba(139, 69, 19, 0.712); */
+
+                grid-column: 3 / -1;
+                grid-row: 4;
+
+                color: white;
+                font-family: 'FonteTitulo1', Times, serif;
+                font-size: 8pt;
+                letter-spacing: 2px;
+            }
+            .BackgrondFluido #frase3{
+                /* background: rgba(0, 0, 255, 0.329); */
+
+                color: white;
+                font-family: 'FonteTitulo1', Times, serif;
+                font-size: 12pt;
+                padding: 6px;
+                padding-top: 0;
+                letter-spacing: 2.5px;
+
+                grid-column: 2 / 5;
+                grid-row: 1;
+            }
+
+            .BackgrondFluido #frase4{
+                /* background: #b30cb388; */
+
+                color: white;
+                font-family: 'FonteTitulo1', Times, serif;
+                font-size: 19pt;
+
+                grid-column: 2 / -1;
+                grid-row: 2;
+            }
+
+            .BackgrondFluido #frase5{
+                /* background: rgba(255, 0, 0, 0.26); */
+
+                color: white;
+                font-family: 'FonteTitulo1', Times, serif;
+                font-size: 8pt;
+                letter-spacing: 1px;
+
+                grid-column: 2 / -1;
+                grid-row: 3;
+            }
+
+            .BackgrondFluido #frase6{
+                /* background: rgba(173, 216, 230, 0.616); */
+
+                writing-mode: sideways-lr;
+
+                color: white;
+                font-family: 'FonteTitulo1', Times, serif;
+                font-size: 12pt;
+                letter-spacing: 1px;
+
+                grid-column: 2;
+                grid-row: 4 / 15;
+            }
+
+            .BackgrondFluido #frase7{
+                /* background: pink; */
+
+                color: white;
+                font-family: 'FonteTitulo1', Times, serif;
+                font-size: 11pt;
+                letter-spacing: 1.8px;
+
+                writing-mode: sideways-lr;
+                
+                grid-column: 6;
+                grid-row: 1;
+
+            }
+
+            .BackgrondFluido #frase8{
+                /* background: rgba(144, 238, 144, 0.705); */
+                
+                color: white;
+                font-family: 'FonteTitulo1', Times, serif;
+                font-size: 45pt;
+                letter-spacing: 1.2px;
+
+                writing-mode: sideways-lr;
+
+                grid-column: 1;
+                grid-row: 2 / -1;
+            }
+
+            .BackgrondFluido #frase9{
+                /* background: rgba(255, 255, 0, 0.322); */
+
+                color: white;
+                font-family: 'FonteTitulo1', Times, serif;
+                font-size: 8pt;
+
+                grid-column: 2 / -1;
+                grid-row: 15;
+            }
+
+            .BackgrondFluido #frase10{
+                /* background: lightsalmon; */
+
+                grid-column: 5 / 6;
+                grid-row: 1;
+
+                writing-mode: sideways-lr;
+
+                color: white;
+                font-family: 'FonteTitulo1', Times, serif;
+                font-size: 12pt;
+                letter-spacing: 1.4px;
+            }
+            .BackgrondFluido #frase11{
+                /* background: lightgreen; */
+
+                grid-column: 6;
+                grid-row: 5 / 15;
+
+                writing-mode: sideways-lr;
+
+                color: white;
+                font-family: 'FonteTitulo1', Times, serif;
+                font-size: 24pt;
+            }
+            .BackgrondFluido #frase12{
+                /* background: rgba(255, 0, 0, 0.747); */
+
+                grid-row: 7 / 15;
+                grid-column: 4;
+
+                writing-mode: sideways-lr;
+
+
+                color: white;
+                font-family: 'FonteTitulo1', Times, serif;
+                font-size: 9.5pt;
+            }
+            .BackgrondFluido #frase13{
+                /* background: #d10ed1cc; */
+                
+                grid-row: 6 / 15;
+                grid-column: 5;
+
+                writing-mode: sideways-lr;
+
+                color: white;
+                font-family: 'FonteTitulo1', Times, serif;
+                font-size: 12pt;
+                letter-spacing: 3px;
+            }
+            .BackgrondFluido #frase14{
+                /* background: lightslategrey; */
+
+                grid-row: 7;
+
+                color: white;
+                font-family: 'FonteTitulo1', Times, serif;
+                font-size: 22pt;
+                letter-spacing: 12pt;
+                text-align: center;
+                padding-top: 5px;
+                padding-left: 5px;
+            }
+            .BackgrondFluido #frase15{
+                /* background: red; */
+
+                grid-row: 6;
+                grid-column: 3 / 5;
+
+                color: white;
+                font-family: 'FonteTitulo1', Times, serif;
+                font-size: 12pt;
+            }
+            .BackgrondFluido #frase16{
+                /* background: yellow; */
+
+                grid-row: 5;
+                grid-column: 3 / 6;
+
+                color: white;
+                font-family: 'FonteTitulo1', Times, serif;
+                font-size: 40pt;
+                letter-spacing: 1.5px;
+                text-align: center;
+            }
 
 
     .EstruturaGeral .sectionMain{
