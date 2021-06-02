@@ -1,0 +1,306 @@
+@font-face {
+    font-family: 'FonteTitulo1';
+    src: url('../FONTS/Cheyenne-Sans-ExtraBold/hinted-CheyenneSans-Black.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FonteSubTitulo';
+    src: url('../FONTS/TeXGyreHeros-Regular/texgyreheros-regular.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background: #000;
+}
+
+.EstruturaGeral{
+    width: 100vw;
+    height: 200vh;
+    background: linear-gradient(180deg, #000, #1f011f, #800080, #701686);
+    overflow: hidden;
+}
+
+
+
+    .EstruturaGeral .NavMain{
+        /* background: rgba(255, 255, 255, 0.342); */
+        height: 10vh;
+        width: 100vw;
+        position: fixed;
+        bottom: 0;
+    }
+        .EstruturaGeral .NavMain ul{
+            background: #000;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80vw;
+            height: 9vh;
+            border-radius: 50px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            align-items: center;
+        }
+            .EstruturaGeral .NavMain ul li{
+                display: inline;
+                justify-self: center;
+                /* background: rgba(255, 0, 0, 0.226); */
+                width: 50px;
+                height: 50px;
+            }
+                .EstruturaGeral .NavMain ul li a{
+                    display: inline-block;
+                    font-size: 1.8em;
+                    text-align: center;
+                    /* background: rgba(0, 0, 255, 0.212); */
+                    position: relative;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                }
+                    .EstruturaGeral .NavMain ul li a .bi{
+                        color: #817782;
+                    }
+    
+
+
+    .EstruturaGeral .cabecalho{
+        /* background: rgba(173, 216, 230, 0.233); */
+        width: 100vw;
+        height: 85vh;
+        position: relative;
+    }
+    .EstruturaGeral .cabecalho .QuadroFoto1{
+            width: 200px;
+            height:200px;
+            position: absolute;
+            /* border: #ac01f0 15px solid; */
+            border-style: solid;
+            border-width: 15px;
+            border-image: linear-gradient(180deg, #1f011f, #1f011f, #800080, #701686) 1;
+            box-sizing: border-box;
+            transform: rotate(45deg);
+            bottom: 350px;
+            right: 200px;
+            z-index: 0;
+        }
+        .EstruturaGeral .cabecalho .QuadroFoto2{
+            width: 280px;
+            height:280px;
+            position: absolute;
+            border: #32a51b00 15px solid;
+            box-sizing: border-box;
+            transform: rotate(45deg);
+            bottom: 250px;
+            right: 0;
+            overflow: hidden;
+        }
+        .EstruturaGeral .cabecalho .QuadroFoto3{
+            width: 80px;
+            height:80px;
+            position: absolute;
+            border: #fe3075ef 10px solid;
+            box-sizing: border-box;
+            transform: rotate(45deg);
+            bottom: 300px;
+            right: 260px;
+            z-index: 5;
+        }
+        .EstruturaGeral .cabecalho .FotoPerfil{
+            width: 391px;
+            height: 432px;
+            background-image: url(../IMG/LaraMelo9.png);
+            background-size: cover;
+            position: absolute;
+            transform: rotate(-45deg);
+            bottom: -115px;
+            right: -80px;
+        }
+        .EstruturaGeral .cabecalho .NomePerfil{
+            position: absolute;
+            background: rgba(255, 255, 255, 0);
+            bottom: 90px;
+            color: #e8e1e9;
+            left: 10px;
+        }
+        .EstruturaGeral .cabecalho .NomePerfil h1{
+            font-family: 'FonteTitulo1', Times, serif;
+            text-transform: uppercase;
+            font-size: 40pt;
+            text-shadow: 5px 5px 5px #21002eab;
+        }
+        .EstruturaGeral .cabecalho .NomePerfil h1 strong{
+            font-size: 72pt;      
+        }
+        .EstruturaGeral .cabecalho .NomePerfil p{
+            font-family: 'FonteSubTitulo', Times, serif;
+            font-size: 16pt;
+        }
+
+
+
+    .EstruturaGeral .sectionMain{
+        /* background: rgba(255, 160, 122, 0.205); */
+        width: 100vw;
+        height: 110vh;
+        display: grid;
+        grid-template-rows: 20vh, 100vh;
+    }
+        .EstruturaGeral .sectionMain .RowPrincipal{
+            /* background: rgba(255, 255, 0, 0.315); */
+            width: 100vw;
+            height: 25vh;
+        }
+
+        .EstruturaGeral .sectionMain .bi{
+            font-size: 2.5em;
+        }
+        .EstruturaGeral .sectionMain p{
+            font-family: 'FonteTitulo1', Times, serif;
+            line-height: 1.2em;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+        .EstruturaGeral .sectionMain p i#subTitulo{
+            font-family: 'FonteSubTitulo', Times, serif;
+            font-size: 0.8em;
+            
+        }
+            .EstruturaGeral .sectionMain .RowPrincipal .produtoMain{
+                background: linear-gradient(60deg, rgba(234, 0, 148, 0.582), #fe3075d3, rgba(252, 120, 113, 0.89));
+                width: 92vw;
+                height: 170px;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 25px;
+                color: #e8e1e9;
+
+                position: relative;
+            }
+                .EstruturaGeral .sectionMain .RowPrincipal .produtoMain span{
+                    position: absolute;
+                    left: 20px;
+                    top: 30px;
+                }
+                .EstruturaGeral .sectionMain .RowPrincipal .produtoMain p{
+                    position: absolute;
+                    left: 20px;
+                    bottom: 30px;
+                }
+        .EstruturaGeral .sectionMain .RowOrdinaria{
+            /* background: rgba(255, 255, 255, 0.37); */
+            justify-self: center;
+            width: 95vw;
+            height: 90vh;
+            column-count: 2;
+            column-gap: 0;
+        }
+            .EstruturaGeral .sectionMain .RowOrdinaria .produto01{
+                background: linear-gradient(60deg, rgba(234, 0, 148, 0.582), #fe3075a9, rgba(252, 120, 113, 0.555));
+                width: 45vw;
+                min-height: 200px;
+                max-height: 230px;
+                margin-bottom: 15px;
+                margin-left: auto;
+                margin-right: auto;
+                break-inside: avoid-column;
+                overflow: hidden;
+                border-radius: 25px;
+                color: #e8e1e9;
+
+                position: relative;
+            }
+                .EstruturaGeral .sectionMain .RowOrdinaria .produto01 span{
+                    position: absolute;
+                    left: 20px;
+                    top: 30px;
+                }
+                .EstruturaGeral .sectionMain .RowOrdinaria .produto01 p{
+                    position: absolute;
+                    left: 20px;
+                    bottom: 30px;
+                }
+            .EstruturaGeral .sectionMain .RowOrdinaria .produto02{
+                background: linear-gradient(200deg, rgba(234, 0, 148, 0.781), #5c00a377, #5c00a391);
+                width: 45vw;
+                min-height: 280px;
+                max-height: 380px;
+                margin-bottom: 15px;
+                margin-left: auto;
+                margin-right: auto;
+                break-inside: avoid-column;
+                overflow: hidden;
+                border-radius: 25px;
+                color: #e8e1e9;    
+
+                position: relative;
+            }
+                .EstruturaGeral .sectionMain .RowOrdinaria .produto02 span{
+                    position: absolute;
+                    left: 20px;
+                    top: 30px;
+                }
+                .EstruturaGeral .sectionMain .RowOrdinaria .produto02 p{
+                    position: absolute;
+                    left: 20px;
+                    bottom: 30px;
+                }
+            .EstruturaGeral .sectionMain .RowOrdinaria .produto03{
+                background: linear-gradient(30deg, #6f1686c0, #fe30758f, #fe3075b7);
+                width: 45vw;
+                min-height: 280px;
+                max-height: 380px;
+                margin-bottom: 15px;
+                margin-left: auto;
+                margin-right: auto;
+                break-inside: avoid-column;
+                overflow: hidden;
+                border-radius: 25px;
+                color: #e8e1e9;
+
+                position: relative;
+            }
+                .EstruturaGeral .sectionMain .RowOrdinaria .produto03 span{
+                    position: absolute;
+                    left: 20px;
+                    top: 30px;
+                }
+                .EstruturaGeral .sectionMain .RowOrdinaria .produto03 p{
+                    position: absolute;
+                    left: 20px;
+                    bottom: 30px;
+                }
+            .EstruturaGeral .sectionMain .RowOrdinaria .produto04{
+                background: linear-gradient(200deg, rgba(234, 0, 148, 0.527), #5c00a386, #5c00a391);
+                width: 45vw;
+                min-height: 200px;
+                max-height: 230px;
+                margin-bottom: 15px;
+                margin-left: auto;
+                margin-right: auto;
+                break-inside: avoid-column;
+                overflow: hidden;
+                border-radius: 25px;
+                color: #e8e1e9;
+
+                position: relative;
+            }
+                .EstruturaGeral .sectionMain .RowOrdinaria .produto04 span{
+                    position: absolute;
+                    left: 20px;
+                    top: 30px;
+                }
+                .EstruturaGeral .sectionMain .RowOrdinaria .produto04 p{
+                    position: absolute;
+                    left: 20px;
+                    bottom: 30px;
+                }
