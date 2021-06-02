@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'FonteBloco';
+    src: url('../FONTS/nike-logo-font/nikelogofont/Futura-Bold.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FonteTitulo1';
+    src: url('../FONTS/nike-logo-font/nikelogofont/Futura-Std-Book.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FonteTitulo2';
+    src: url('../FONTS/nike-logo-font/nikelogofont/Futura-Light.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    font-size: 10pt;
+    text-transform: uppercase;
+    outline: turquoise 1px dashed;
+}
+
+.EstruturaGeral{
+    width: 100vw;
+    height: 100vh;
+    background: red;
+}
+    .EstruturaGeral .BlocoPrincipal{
+        background: white;
+        width: 95%;
+        height: 100%;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 10% repeat(4, 20%);
+    }
+        .EstruturaGeral .BlocoPrincipal .BlocoFoto{
+            background: url(../IMG/LaraMelo.jpeg) no-repeat center;
+            background-size: cover;
+            background-position-y: top 40%;
+            filter: blur(5px) grayscale(80%);
+        }
+        .EstruturaGeral .BlocoPrincipal .BlocoInfo{
+            background: green;
+        }
+        .EstruturaGeral .BlocoPrincipal a div.ConfigBlocos h1{
+            font-size: 2em;
+            text-align: center;
+            font-family: 'FonteTitulo2';
+
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .EstruturaGeral .BlocoPrincipal a div#Bloco04{
+            width: 100%;
+            height: 100%;
+            background: lightgreen;
+        }
+        .EstruturaGeral .BlocoPrincipal a div#Bloco03{
+            width: 100%;
+            height: 100%;
+            background: lightblue;
+        }
+        .EstruturaGeral .BlocoPrincipal a div#Bloco02{
+            width: 100%;
+            height: 100%;
+            background: lightsalmon;
+        }
+        .EstruturaGeral .BlocoPrincipal a div#Bloco01{
+            width: 100%;
+            height: 100%;
+            background: lightseagreen;
+        }
+
+@media (min-width: 1000px) {
+    .EstruturaGeral .BlocoPrincipal{
+        width: 50%;
+        height: 90%;
+    }
+}
