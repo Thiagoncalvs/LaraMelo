@@ -96,14 +96,9 @@ body{
                 text-transform: uppercase;
                 overflow: hidden;
 
-                outline: #800080 dashed 1px;
                 padding: 2px;
-
-                
-
             }
             .BackgrondFluido > *{
-                outline: #800080 dashed 1px;
                 margin: 2px;
                 word-break: break-word;
             }
@@ -534,6 +529,98 @@ body{
                     }
                     .EstruturaGeral .NavMain ul li:hover a .bi-whatsapp{
                         color: rgb(68, 186, 90);
+                    }
+
+
+                    .BackgrondFluido{
+                        /* background: rgba(255, 255, 255, 0.486); */
+                        width: 80%;
+                        height: 95%;
+                        
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+        
+                        display: grid;
+                        grid-template-columns: repeat(6, auto);
+                        grid-template-rows: repeat(15, auto);
+                        
+                        text-transform: uppercase;
+                        overflow: hidden;
+        
+                        padding: 2px;
+                    }
+                    .BackgrondFluido #frase1{
+                        font-size: calc(12pt * 1.3);
+                    }
+                    .BackgrondFluido #frase2{
+                        font-size: calc(8pt * 1.3);
+                        letter-spacing: 2px;
+                    }
+                    .BackgrondFluido #frase3{
+                        font-size: calc(12pt * 1.3);
+                        padding: 6px;
+                        padding-top: 0;
+                        letter-spacing: 2.5px;
+                    }
+                
+                    .BackgrondFluido #frase4{
+                        font-size: calc(19pt * 1.3);
+                    }
+                
+                    .BackgrondFluido #frase5{
+                        font-size: calc(8pt * 1.3);
+                        letter-spacing: 1px;
+                    }
+                
+                    .BackgrondFluido #frase6{
+                        font-size: calc(12pt * 1.3);
+                        letter-spacing: 1px;
+                    }
+                
+                    .BackgrondFluido #frase7{
+                        font-size: calc(11pt * 1.3);
+                        letter-spacing: 1.8px;
+                    }
+                
+                    .BackgrondFluido #frase8{
+                        font-size: calc(45pt * 1.3) ;
+                        letter-spacing: 1.2px;
+                    }
+                
+                    .BackgrondFluido #frase9{
+                        font-size: calc(8pt * 1.3);
+                    }
+                
+                    .BackgrondFluido #frase10{
+                        font-size: calc(12pt * 1.3);
+                        letter-spacing: 1.4px;
+                    }
+                    .BackgrondFluido #frase11{
+                        font-size: calc(24pt * 1.3);
+                    }
+                    .BackgrondFluido #frase12{
+                        font-size: calc(9.5pt * 1.3);
+                    }
+                    .BackgrondFluido #frase13{
+                        font-size: calc(12pt * 1.3);
+                        letter-spacing: 3%;
+                    }
+                    .BackgrondFluido #frase14{
+                        font-size: calc(22pt * 1.3);
+                        letter-spacing: 12pt;
+                        text-align: center;
+                        padding-top: 5%;
+                        padding-left: 5%;
+                    }
+                    .BackgrondFluido #frase15{
+                        font-size: calc(12pt * 1.3);
+                    }
+                    .BackgrondFluido #frase16{
+                        font-size: calc(40pt * 1.3);
+                        letter-spacing: 1.5%;
+                        text-align: center;
                     }
 }
 @media (max-width: 420px) {
